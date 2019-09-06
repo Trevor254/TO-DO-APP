@@ -5,8 +5,15 @@
     </head>
     <body>
         <h1>Todos</h1>
-        <input id="new-todo-text" type="text" placeholder="Enter something to do">
-        <button id ="add-todo">Add Todo</button>
+        <input id="search-text" type="text" placeholder="Filter todos">
+        <label>
+            <input type="checkbox" id="hide-completed">Hide completed
+        </label>
+        <div id="todos"></div>
+        <form id="new-todo">
+            <input id="new-todo-text" type="text" placeholder="Enter something to do" name="todoText">
+            <button>Add Todo</button>
+        </form>
         <script src="todoapp.js"></script>
     </body>
 </html>
